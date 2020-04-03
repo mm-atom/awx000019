@@ -1,0 +1,8 @@
+	// 拍摄照片
+	/**
+	 * ${0:拍摄照片的临时文件路径}
+	 */
+	const r$CURRENT_SECONDS_UNIX = await(() => {
+		const quality = '${1|normal,high,low|}';	// 成像质量
+		return awx19(mm, quality);
+	})();
